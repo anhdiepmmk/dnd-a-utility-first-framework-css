@@ -29376,6 +29376,877 @@
   background-color: #B8B8B8 !important;
 }
 
+/*$colors-list:(
+        default: $chalk,
+        blush: $blush,
+        brick: $brick,
+        pink: $pink,
+        slate: $slate
+);*/
+._bg-wsc-000000 {
+  color: #000000 !important;
+}
+
+._bg-wsc-000033 {
+  color: #000033 !important;
+}
+
+._bg-wsc-000066 {
+  color: #000066 !important;
+}
+
+._bg-wsc-000099 {
+  color: #000099 !important;
+}
+
+._bg-wsc-0000CC {
+  color: #0000CC !important;
+}
+
+._bg-wsc-0000FF {
+  color: #0000FF !important;
+}
+
+._bg-wsc-003300 {
+  color: #003300 !important;
+}
+
+._bg-wsc-003333 {
+  color: #003333 !important;
+}
+
+._bg-wsc-003366 {
+  color: #003366 !important;
+}
+
+._bg-wsc-003399 {
+  color: #003399 !important;
+}
+
+._bg-wsc-0033CC {
+  color: #0033CC !important;
+}
+
+._bg-wsc-0033FF {
+  color: #0033FF !important;
+}
+
+._bg-wsc-006600 {
+  color: #006600 !important;
+}
+
+._bg-wsc-006633 {
+  color: #006633 !important;
+}
+
+._bg-wsc-006666 {
+  color: #006666 !important;
+}
+
+._bg-wsc-006699 {
+  color: #006699 !important;
+}
+
+._bg-wsc-0066CC {
+  color: #0066CC !important;
+}
+
+._bg-wsc-0066FF {
+  color: #0066FF !important;
+}
+
+._bg-wsc-009900 {
+  color: #009900 !important;
+}
+
+._bg-wsc-009933 {
+  color: #009933 !important;
+}
+
+._bg-wsc-009966 {
+  color: #009966 !important;
+}
+
+._bg-wsc-009999 {
+  color: #009999 !important;
+}
+
+._bg-wsc-0099CC {
+  color: #0099CC !important;
+}
+
+._bg-wsc-0099FF {
+  color: #0099FF !important;
+}
+
+._bg-wsc-00CC00 {
+  color: #00CC00 !important;
+}
+
+._bg-wsc-00CC33 {
+  color: #00CC33 !important;
+}
+
+._bg-wsc-00CC66 {
+  color: #00CC66 !important;
+}
+
+._bg-wsc-00CC99 {
+  color: #00CC99 !important;
+}
+
+._bg-wsc-00CCCC {
+  color: #00CCCC !important;
+}
+
+._bg-wsc-00CCFF {
+  color: #00CCFF !important;
+}
+
+._bg-wsc-00FF00 {
+  color: #00FF00 !important;
+}
+
+._bg-wsc-00FF33 {
+  color: #00FF33 !important;
+}
+
+._bg-wsc-00FF66 {
+  color: #00FF66 !important;
+}
+
+._bg-wsc-00FF99 {
+  color: #00FF99 !important;
+}
+
+._bg-wsc-00FFCC {
+  color: #00FFCC !important;
+}
+
+._bg-wsc-00FFFF {
+  color: #00FFFF !important;
+}
+
+._bg-wsc-330000 {
+  color: #330000 !important;
+}
+
+._bg-wsc-330033 {
+  color: #330033 !important;
+}
+
+._bg-wsc-330066 {
+  color: #330066 !important;
+}
+
+._bg-wsc-330099 {
+  color: #330099 !important;
+}
+
+._bg-wsc-3300CC {
+  color: #3300CC !important;
+}
+
+._bg-wsc-3300FF {
+  color: #3300FF !important;
+}
+
+._bg-wsc-333300 {
+  color: #333300 !important;
+}
+
+._bg-wsc-333333 {
+  color: #333333 !important;
+}
+
+._bg-wsc-333366 {
+  color: #333366 !important;
+}
+
+._bg-wsc-333399 {
+  color: #333399 !important;
+}
+
+._bg-wsc-3333CC {
+  color: #3333CC !important;
+}
+
+._bg-wsc-3333FF {
+  color: #3333FF !important;
+}
+
+._bg-wsc-336600 {
+  color: #336600 !important;
+}
+
+._bg-wsc-336633 {
+  color: #336633 !important;
+}
+
+._bg-wsc-336666 {
+  color: #336666 !important;
+}
+
+._bg-wsc-336699 {
+  color: #336699 !important;
+}
+
+._bg-wsc-3366CC {
+  color: #3366CC !important;
+}
+
+._bg-wsc-3366FF {
+  color: #3366FF !important;
+}
+
+._bg-wsc-339900 {
+  color: #339900 !important;
+}
+
+._bg-wsc-339933 {
+  color: #339933 !important;
+}
+
+._bg-wsc-339966 {
+  color: #339966 !important;
+}
+
+._bg-wsc-339999 {
+  color: #339999 !important;
+}
+
+._bg-wsc-3399CC {
+  color: #3399CC !important;
+}
+
+._bg-wsc-3399FF {
+  color: #3399FF !important;
+}
+
+._bg-wsc-33CC00 {
+  color: #33CC00 !important;
+}
+
+._bg-wsc-33CC33 {
+  color: #33CC33 !important;
+}
+
+._bg-wsc-33CC66 {
+  color: #33CC66 !important;
+}
+
+._bg-wsc-33CC99 {
+  color: #33CC99 !important;
+}
+
+._bg-wsc-33CCCC {
+  color: #33CCCC !important;
+}
+
+._bg-wsc-33CCFF {
+  color: #33CCFF !important;
+}
+
+._bg-wsc-33FF00 {
+  color: #33FF00 !important;
+}
+
+._bg-wsc-33FF33 {
+  color: #33FF33 !important;
+}
+
+._bg-wsc-33FF66 {
+  color: #33FF66 !important;
+}
+
+._bg-wsc-33FF99 {
+  color: #33FF99 !important;
+}
+
+._bg-wsc-33FFCC {
+  color: #33FFCC !important;
+}
+
+._bg-wsc-33FFFF {
+  color: #33FFFF !important;
+}
+
+._bg-wsc-660000 {
+  color: #660000 !important;
+}
+
+._bg-wsc-660033 {
+  color: #660033 !important;
+}
+
+._bg-wsc-660066 {
+  color: #660066 !important;
+}
+
+._bg-wsc-660099 {
+  color: #660099 !important;
+}
+
+._bg-wsc-6600CC {
+  color: #6600CC !important;
+}
+
+._bg-wsc-6600FF {
+  color: #6600FF !important;
+}
+
+._bg-wsc-663300 {
+  color: #663300 !important;
+}
+
+._bg-wsc-663333 {
+  color: #663333 !important;
+}
+
+._bg-wsc-663366 {
+  color: #663366 !important;
+}
+
+._bg-wsc-663399 {
+  color: #663399 !important;
+}
+
+._bg-wsc-6633CC {
+  color: #6633CC !important;
+}
+
+._bg-wsc-6633FF {
+  color: #6633FF !important;
+}
+
+._bg-wsc-666600 {
+  color: #666600 !important;
+}
+
+._bg-wsc-666633 {
+  color: #666633 !important;
+}
+
+._bg-wsc-666666 {
+  color: #666666 !important;
+}
+
+._bg-wsc-666699 {
+  color: #666699 !important;
+}
+
+._bg-wsc-6666CC {
+  color: #6666CC !important;
+}
+
+._bg-wsc-6666FF {
+  color: #6666FF !important;
+}
+
+._bg-wsc-669900 {
+  color: #669900 !important;
+}
+
+._bg-wsc-669933 {
+  color: #669933 !important;
+}
+
+._bg-wsc-669966 {
+  color: #669966 !important;
+}
+
+._bg-wsc-669999 {
+  color: #669999 !important;
+}
+
+._bg-wsc-6699CC {
+  color: #6699CC !important;
+}
+
+._bg-wsc-6699FF {
+  color: #6699FF !important;
+}
+
+._bg-wsc-66CC00 {
+  color: #66CC00 !important;
+}
+
+._bg-wsc-66CC33 {
+  color: #66CC33 !important;
+}
+
+._bg-wsc-66CC66 {
+  color: #66CC66 !important;
+}
+
+._bg-wsc-66CC99 {
+  color: #66CC99 !important;
+}
+
+._bg-wsc-66CCCC {
+  color: #66CCCC !important;
+}
+
+._bg-wsc-66CCFF {
+  color: #66CCFF !important;
+}
+
+._bg-wsc-66FF00 {
+  color: #66FF00 !important;
+}
+
+._bg-wsc-66FF33 {
+  color: #66FF33 !important;
+}
+
+._bg-wsc-66FF66 {
+  color: #66FF66 !important;
+}
+
+._bg-wsc-66FF99 {
+  color: #66FF99 !important;
+}
+
+._bg-wsc-66FFCC {
+  color: #66FFCC !important;
+}
+
+._bg-wsc-66FFFF {
+  color: #66FFFF !important;
+}
+
+._bg-wsc-990000 {
+  color: #990000 !important;
+}
+
+._bg-wsc-990033 {
+  color: #990033 !important;
+}
+
+._bg-wsc-990066 {
+  color: #990066 !important;
+}
+
+._bg-wsc-990099 {
+  color: #990099 !important;
+}
+
+._bg-wsc-9900CC {
+  color: #9900CC !important;
+}
+
+._bg-wsc-9900FF {
+  color: #9900FF !important;
+}
+
+._bg-wsc-993300 {
+  color: #993300 !important;
+}
+
+._bg-wsc-993333 {
+  color: #993333 !important;
+}
+
+._bg-wsc-993366 {
+  color: #993366 !important;
+}
+
+._bg-wsc-993399 {
+  color: #993399 !important;
+}
+
+._bg-wsc-9933CC {
+  color: #9933CC !important;
+}
+
+._bg-wsc-9933FF {
+  color: #9933FF !important;
+}
+
+._bg-wsc-996600 {
+  color: #996600 !important;
+}
+
+._bg-wsc-996633 {
+  color: #996633 !important;
+}
+
+._bg-wsc-996666 {
+  color: #996666 !important;
+}
+
+._bg-wsc-996699 {
+  color: #996699 !important;
+}
+
+._bg-wsc-9966CC {
+  color: #9966CC !important;
+}
+
+._bg-wsc-9966FF {
+  color: #9966FF !important;
+}
+
+._bg-wsc-999900 {
+  color: #999900 !important;
+}
+
+._bg-wsc-999933 {
+  color: #999933 !important;
+}
+
+._bg-wsc-999966 {
+  color: #999966 !important;
+}
+
+._bg-wsc-999999 {
+  color: #999999 !important;
+}
+
+._bg-wsc-9999CC {
+  color: #9999CC !important;
+}
+
+._bg-wsc-9999FF {
+  color: #9999FF !important;
+}
+
+._bg-wsc-99CC00 {
+  color: #99CC00 !important;
+}
+
+._bg-wsc-99CC33 {
+  color: #99CC33 !important;
+}
+
+._bg-wsc-99CC66 {
+  color: #99CC66 !important;
+}
+
+._bg-wsc-99CC99 {
+  color: #99CC99 !important;
+}
+
+._bg-wsc-99CCCC {
+  color: #99CCCC !important;
+}
+
+._bg-wsc-99CCFF {
+  color: #99CCFF !important;
+}
+
+._bg-wsc-99FF00 {
+  color: #99FF00 !important;
+}
+
+._bg-wsc-99FF33 {
+  color: #99FF33 !important;
+}
+
+._bg-wsc-99FF66 {
+  color: #99FF66 !important;
+}
+
+._bg-wsc-99FF99 {
+  color: #99FF99 !important;
+}
+
+._bg-wsc-99FFCC {
+  color: #99FFCC !important;
+}
+
+._bg-wsc-99FFFF {
+  color: #99FFFF !important;
+}
+
+._bg-wsc-CC0000 {
+  color: #CC0000 !important;
+}
+
+._bg-wsc-CC0033 {
+  color: #CC0033 !important;
+}
+
+._bg-wsc-CC0066 {
+  color: #CC0066 !important;
+}
+
+._bg-wsc-CC0099 {
+  color: #CC0099 !important;
+}
+
+._bg-wsc-CC00CC {
+  color: #CC00CC !important;
+}
+
+._bg-wsc-CC00FF {
+  color: #CC00FF !important;
+}
+
+._bg-wsc-CC3300 {
+  color: #CC3300 !important;
+}
+
+._bg-wsc-CC3333 {
+  color: #CC3333 !important;
+}
+
+._bg-wsc-CC3366 {
+  color: #CC3366 !important;
+}
+
+._bg-wsc-CC3399 {
+  color: #CC3399 !important;
+}
+
+._bg-wsc-CC33CC {
+  color: #CC33CC !important;
+}
+
+._bg-wsc-CC33FF {
+  color: #CC33FF !important;
+}
+
+._bg-wsc-CC6600 {
+  color: #CC6600 !important;
+}
+
+._bg-wsc-CC6633 {
+  color: #CC6633 !important;
+}
+
+._bg-wsc-CC6666 {
+  color: #CC6666 !important;
+}
+
+._bg-wsc-CC6699 {
+  color: #CC6699 !important;
+}
+
+._bg-wsc-CC66CC {
+  color: #CC66CC !important;
+}
+
+._bg-wsc-CC66FF {
+  color: #CC66FF !important;
+}
+
+._bg-wsc-CC9900 {
+  color: #CC9900 !important;
+}
+
+._bg-wsc-CC9933 {
+  color: #CC9933 !important;
+}
+
+._bg-wsc-CC9966 {
+  color: #CC9966 !important;
+}
+
+._bg-wsc-CC9999 {
+  color: #CC9999 !important;
+}
+
+._bg-wsc-CC99CC {
+  color: #CC99CC !important;
+}
+
+._bg-wsc-CC99FF {
+  color: #CC99FF !important;
+}
+
+._bg-wsc-CCCC00 {
+  color: #CCCC00 !important;
+}
+
+._bg-wsc-CCCC33 {
+  color: #CCCC33 !important;
+}
+
+._bg-wsc-CCCC66 {
+  color: #CCCC66 !important;
+}
+
+._bg-wsc-CCCC99 {
+  color: #CCCC99 !important;
+}
+
+._bg-wsc-CCCCCC {
+  color: #CCCCCC !important;
+}
+
+._bg-wsc-CCCCFF {
+  color: #CCCCFF !important;
+}
+
+._bg-wsc-CCFF00 {
+  color: #CCFF00 !important;
+}
+
+._bg-wsc-CCFF33 {
+  color: #CCFF33 !important;
+}
+
+._bg-wsc-CCFF66 {
+  color: #CCFF66 !important;
+}
+
+._bg-wsc-CCFF99 {
+  color: #CCFF99 !important;
+}
+
+._bg-wsc-CCFFCC {
+  color: #CCFFCC !important;
+}
+
+._bg-wsc-CCFFFF {
+  color: #CCFFFF !important;
+}
+
+._bg-wsc-FF0000 {
+  color: #FF0000 !important;
+}
+
+._bg-wsc-FF0033 {
+  color: #FF0033 !important;
+}
+
+._bg-wsc-FF0066 {
+  color: #FF0066 !important;
+}
+
+._bg-wsc-FF0099 {
+  color: #FF0099 !important;
+}
+
+._bg-wsc-FF00CC {
+  color: #FF00CC !important;
+}
+
+._bg-wsc-FF00FF {
+  color: #FF00FF !important;
+}
+
+._bg-wsc-FF3300 {
+  color: #FF3300 !important;
+}
+
+._bg-wsc-FF3333 {
+  color: #FF3333 !important;
+}
+
+._bg-wsc-FF3366 {
+  color: #FF3366 !important;
+}
+
+._bg-wsc-FF3399 {
+  color: #FF3399 !important;
+}
+
+._bg-wsc-FF33CC {
+  color: #FF33CC !important;
+}
+
+._bg-wsc-FF33FF {
+  color: #FF33FF !important;
+}
+
+._bg-wsc-FF6600 {
+  color: #FF6600 !important;
+}
+
+._bg-wsc-FF6633 {
+  color: #FF6633 !important;
+}
+
+._bg-wsc-FF6666 {
+  color: #FF6666 !important;
+}
+
+._bg-wsc-FF6699 {
+  color: #FF6699 !important;
+}
+
+._bg-wsc-FF66CC {
+  color: #FF66CC !important;
+}
+
+._bg-wsc-FF66FF {
+  color: #FF66FF !important;
+}
+
+._bg-wsc-FF9900 {
+  color: #FF9900 !important;
+}
+
+._bg-wsc-FF9933 {
+  color: #FF9933 !important;
+}
+
+._bg-wsc-FF9966 {
+  color: #FF9966 !important;
+}
+
+._bg-wsc-FF9999 {
+  color: #FF9999 !important;
+}
+
+._bg-wsc-FF99CC {
+  color: #FF99CC !important;
+}
+
+._bg-wsc-FF99FF {
+  color: #FF99FF !important;
+}
+
+._bg-wsc-FFCC00 {
+  color: #FFCC00 !important;
+}
+
+._bg-wsc-FFCC33 {
+  color: #FFCC33 !important;
+}
+
+._bg-wsc-FFCC66 {
+  color: #FFCC66 !important;
+}
+
+._bg-wsc-FFCC99 {
+  color: #FFCC99 !important;
+}
+
+._bg-wsc-FFCCCC {
+  color: #FFCCCC !important;
+}
+
+._bg-wsc-FFCCFF {
+  color: #FFCCFF !important;
+}
+
+._bg-wsc-FFFF00 {
+  color: #FFFF00 !important;
+}
+
+._bg-wsc-FFFF33 {
+  color: #FFFF33 !important;
+}
+
+._bg-wsc-FFFF66 {
+  color: #FFFF66 !important;
+}
+
+._bg-wsc-FFFF99 {
+  color: #FFFF99 !important;
+}
+
+._bg-wsc-FFFFCC {
+  color: #FFFFCC !important;
+}
+
+._bg-wsc-FFFFFF {
+  color: #FFFFFF !important;
+}
+
 ._text-white {
   color: #FFFFFF !important;
 }
