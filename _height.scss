@@ -1,0 +1,13 @@
+//Height in px
+@for $i from 0 through 2000 {
+    .h-#{$i}px{
+      height: #{$i}px !important;
+    } 
+  }
+  
+  //Height in percent
+  @for $i from 0 through 100 {
+    .h-#{$i}percent{
+      height: #{$i}#{'%'} !important;
+    } 
+  }

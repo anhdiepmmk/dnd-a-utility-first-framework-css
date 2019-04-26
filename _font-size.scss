@@ -1,0 +1,20 @@
+//Font size in px
+@for $i from 0 through 500 {
+    .f-#{$i}px{
+      font-size: #{$i}px !important;
+    } 
+  }
+  
+  //Font size in pt
+  @for $i from 0 through 500 {
+    .f-#{$i}pt{
+      font-size: #{$i}pt !important;
+    } 
+  }
+  
+  //Font in percent
+  @for $i from 0 through 100 {
+    .f-#{$i}percent{
+      font-size: #{$i}#{'%'} !important;
+    } 
+  }

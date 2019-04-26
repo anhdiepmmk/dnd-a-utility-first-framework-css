@@ -1,0 +1,29 @@
+/******************************** Pading ********************************/
+
+//Padding top
+@for $i from 0 through 250 {
+    .pt-#{$i}px{
+      padding-top: #{$i}px !important;
+    } 
+  }
+  
+  //Padding bottom
+  @for $i from 0 through 250 {
+    .pb-#{$i}px{
+      padding-bottom: #{$i}px !important;
+    } 
+  }
+  
+  //Padding right
+  @for $i from 0 through 250 {
+    .pr-#{$i}px{
+      padding-right: #{$i}px !important;
+    } 
+  }
+  
+  //Padding left
+  @for $i from 0 through 250 {
+    .pl-#{$i}px{
+      padding-left: #{$i}px !important;
+    } 
+  }
