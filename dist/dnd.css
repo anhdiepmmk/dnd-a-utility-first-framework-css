@@ -30247,6 +30247,22 @@
   color: #FFFFFF !important;
 }
 
+.ring:nth-child(4) {
+  color: #aaa;
+}
+
+.ring:nth-child(3) {
+  color: #bbb;
+}
+
+.ring:nth-child(2) {
+  color: #ccc;
+}
+
+.ring:nth-child(1) {
+  color: #bbb;
+}
+
 ._text-white {
   color: #FFFFFF !important;
 }

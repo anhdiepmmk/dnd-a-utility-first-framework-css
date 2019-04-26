@@ -131,40 +131,7 @@
 //#E8E8E8	rgb(232,232,232)
 //#F0F0F0	rgb(240,240,240)
 
-//Red Light	HEX	RGB
-//#000000 	rgb(0,0,0)
-//#080000 	rgb(8,0,0)
-//#100000 	rgb(16,0,0)
-//#180000 	rgb(24,0,0)
-//#200000 	rgb(32,0,0)
-//#280000 	rgb(40,0,0)
-//#300000 	rgb(48,0,0)
-//#380000 	rgb(56,0,0)
-//#400000 	rgb(64,0,0)
-//#480000 	rgb(72,0,0)
-//#500000 	rgb(80,0,0)
-//#580000 	rgb(88,0,0)
-//#600000 	rgb(96,0,0)
-//#680000 	rgb(104,0,0)
-//#700000 	rgb(112,0,0)
-//#780000 	rgb(120,0,0)
-//#800000 	rgb(128,0,0)
-//#880000 	rgb(136,0,0)
-//#900000 	rgb(144,0,0)
-//#980000 	rgb(152,0,0)
-//#A00000 	rgb(160,0,0)
-//#A80000 	rgb(168,0,0)
-//#B00000 	rgb(176,0,0)
-//#B80000 	rgb(184,0,0)
-//#C00000 	rgb(192,0,0)
-//#C80000 	rgb(200,0,0)
-//#D00000 	rgb(208,0,0)
-//#D80000 	rgb(216,0,0)
-//#E00000 	rgb(224,0,0)
-//#E80000 	rgb(232,0,0)
-//#F00000 	rgb(240,0,0)
-//#F80000 	rgb(248,0,0)
-//#FF0000 	rgb(255,0,0)
+
 
 /*$colors-list:(
         default: $chalk,
@@ -177,7 +144,6 @@
 //Web Safe Colors?
 //Many years ago, when computers supported maximum 256 different colors, a list of 216 "Web Safe Colors" was suggested as a Web standard (reserving 40 fixed system colors).
 //This 216 hex values cross-browser color palette was created to ensure that all computers would display the colors correctly when running a 256 color palette:
-
 $webSafeColors: (
     '000000'	'000033'	'000066'	'000099'	'0000CC'	'0000FF'
     '003300'	'003333'	'003366'	'003399'	'0033CC'	'0033FF'
@@ -225,3 +191,10 @@ $webSafeColors: (
     }
 }
 
+//Red Light	HEX	RGB
+
+@for $i from length($list)*-1 through -1 {
+    .ring:nth-child(#{abs($i)}) {
+        color: nth($list, $i);
+    }
+}
