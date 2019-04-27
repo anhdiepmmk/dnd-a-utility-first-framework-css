@@ -1,7 +1,29 @@
 /******************************** Margin ********************************/
+
+
 @each $key, $value in $screens {
   @media (min-width: $value) {
-    @for $i from 0 through 100 {
+    $i: 0;
+    @while $i < 10.1 {
+      ._mt-#{$key}#{str-replace($i + '', '.', '_')} {
+        margin-top: #{$i}rem !important;
+      }
+
+      ._mb-#{$key}#{str-replace($i + '', '.', '_')} {
+        margin-bottom: #{$i}rem !important;
+      }
+
+      ._mr-#{$key}#{str-replace($i + '', '.', '_')} {
+        margin-right: #{$i}rem !important;
+      }
+
+      ._ml-#{$key}#{str-replace($i + '', '.', '_')} {
+        margin-left: #{$i}rem !important;
+      }
+
+      $i: $i + 0.1;
+    }
+    /*@for $i from 0 through 100 {
       ._mt-#{$key}#{$i}px {
         margin-top: #{$i}px !important;
       }
@@ -17,6 +39,6 @@
       ._ml-#{$key}#{$i}px {
         margin-left: #{$i}px !important;
       }
-    }
+    }*/
   }
 }

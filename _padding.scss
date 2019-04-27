@@ -1,7 +1,27 @@
 /******************************** Pading ********************************/
 @each $key, $value in $screens {
   @media (min-width: $value) {
-    @for $i from 0 through 100 {
+    $i: 0;
+    @while $i < 10.1 {
+      ._pt-#{$key}#{str-replace($i + '', '.', '_')} {
+        padding-top: #{$i}rem !important;
+      }
+
+      ._pb-#{$key}#{str-replace($i + '', '.', '_')} {
+        padding-bottom: #{$i}rem !important;
+      }
+
+      ._pr-#{$key}#{str-replace($i + '', '.', '_')} {
+        padding-right: #{$i}rem !important;
+      }
+
+      ._pl-#{$key}#{str-replace($i + '', '.', '_')} {
+        padding-left: #{$i}rem !important;
+      }
+
+      $i: $i + 0.1;
+    }
+    /*@for $i from 0 through 100 {
       ._pt-#{$key}#{$i}px {
         padding-top: #{$i}px !important;
       }
@@ -17,7 +37,7 @@
       ._pl-#{$key}#{$i}px {
         padding-left: #{$i}px !important;
       }
-    }
+    }*/
   }
 }
 
