@@ -1,5 +1,5 @@
 //Height in px
-@for $i from 0 through 2000 {
+@for $i from 0 through 1000 {
   .h-#{$i}px {
     height: #{$i}px !important;
   }

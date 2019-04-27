@@ -1,13 +1,13 @@
 //Width in px
-@for $i from 0 through 2000 {
-    .w-#{$i}px{
-      width: #{$i}px !important;
-    } 
+@for $i from 0 through 1000 {
+  .w-#{$i}px {
+    width: #{$i}px !important;
   }
-  
-  //Width in percent
-  @for $i from 0 through 100 {
-    .w-#{$i}percent{
-      width: #{$i}#{'%'} !important;
-    } 
+}
+
+//Width in percent
+@for $i from 0 through 100 {
+  .w-#{$i}percent {
+    width: #{$i}#{'%'} !important;
   }
+}

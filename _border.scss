@@ -38,8 +38,50 @@
   border-style: hidden;
 }
 
-._border-width-0px {
-  border-width: 0px;
+//Border radius
+@for $i from 0 through 50 {
+  ._border-radius-#{$i}px {
+    border-radius: #{$i}px !important;
+  }
+
+  ._border-top-left-radius-#{$i}px {
+    border-top-left-radius: #{$i}px !important;
+  }
+
+  ._border-top-right-radius-#{$i}px {
+    border-top-right-radius: #{$i}px !important;
+  }
+
+  ._border-bottom-left-radius-#{$i}px {
+    border-bottom-left-radius: #{$i}px !important;
+  }
+
+  ._border-bottom-right-radius-#{$i}px {
+    border-bottom-right-radius: #{$i}px !important;
+  }
+}
+
+//Border width
+@for $i from 0 through 50 {
+  ._border-width-#{$i}px {
+     border-width: #{$i}px !important;
+  }
+
+  ._border-top-width-#{$i}px {
+    border-top-width: #{$i}px !important;
+  }
+
+  ._border-bottom-width-#{$i}px {
+    border-bottom-width: #{$i}px !important;
+  }
+
+  ._border-left-width-#{$i}px {
+    border-left-width: #{$i}px !important;
+  }
+
+  ._border-right-width-#{$i}px {
+    border-right-width: #{$i}px !important;
+  }
 }
 
 //border-color
