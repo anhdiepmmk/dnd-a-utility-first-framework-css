@@ -6,13 +6,13 @@
         font-size: #{$i}rem !important;
       }
 
-      ._f-#{$key}#{str-replace($i + '', '.', '_')}pt {
+      /*._f-#{$key}#{str-replace($i + '', '.', '_')}pt {
         font-size: #{$i}pt !important;
       }
 
       ._f-#{$key}#{str-replace($i + '', '.', '_')}em {
         font-size: #{$i}em !important;
-      }
+      }*/
 
       $i: $i + 0.1;
     }
