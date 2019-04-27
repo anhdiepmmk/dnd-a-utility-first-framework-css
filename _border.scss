@@ -43,3 +43,24 @@
 }
 
 //border-color
+@each $key, $value in $colors {
+  ._border-color-#{$key + ''} {
+    border-color: #{$value} !important;
+  }
+
+  ._border-bottom-color-#{$key + ''} {
+    border-bottom-color: #{$value} !important;
+  }
+
+  ._border-top-color-#{$key + ''} {
+    border-top-color: #{$value} !important;
+  }
+
+  ._border-left-color-#{$key + ''} {
+    border-left-color: #{$value} !important;
+  }
+
+  ._border-right-color-#{$key + ''} {
+    border-right-color: #{$value} !important;
+  }
+}
