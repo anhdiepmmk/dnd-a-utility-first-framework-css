@@ -12,5 +12,11 @@
   }
 }
 
+@each $key, $value in $colors {
+  ._hover-bg-#{$key + ''}:hover {
+    background-color: #{$value} !important;
+  }
+}
+
 
 

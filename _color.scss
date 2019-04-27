@@ -3,3 +3,9 @@
     color: #{$value} !important;
   }
 }
+
+@each $key, $value in $colors {
+  ._hover-text-#{$key + ''}:hover {
+    background-color: #{$value} !important;
+  }
+}

@@ -90,6 +90,10 @@
     border-color: #{$value} !important;
   }
 
+  ._hover_border-color-#{$key + ''}:hover {
+    border-color: #{$value} !important;
+  }
+
   ._border-bottom-color-#{$key + ''} {
     border-bottom-color: #{$value} !important;
   }
