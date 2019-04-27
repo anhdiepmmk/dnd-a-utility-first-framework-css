@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f52df438-096d-49cf-aea7-3b87a04758d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_font-size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_font-size.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/dnd.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/dnd.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/dnd.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/dnd.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/dnd.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/dnd.min.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_font-size.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="14" column="9" selection-start-line="8" selection-start-column="6" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="546">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -193,7 +194,7 @@
       <updated>1556294583208</updated>
       <workItem from="1556294584984" duration="10261000" />
       <workItem from="1556375555143" duration="1485000" />
-      <workItem from="1556377068463" duration="7469000" />
+      <workItem from="1556377068463" duration="7746000" />
     </task>
     <task id="LOCAL-00001" summary="add _function.scss&#10;Support This 216 hex values cross-browser color palette&#10;&#10;update ._bg-wsc-xxx">
       <created>1556297958037</created>
@@ -286,11 +287,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556386656474</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="font size">
+      <created>1556386869383</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1556386869383</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19215000" />
+    <option name="totallyTimeSpent" value="19492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -455,8 +463,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_font-size.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="9" selection-start-line="8" selection-start-column="6" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="546">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
