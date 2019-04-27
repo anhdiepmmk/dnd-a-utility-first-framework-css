@@ -1,21 +1,21 @@
-//Font size in px
-@for $i from 0 through 100 {
-  .f-#{$i}px {
-    font-size: #{$i}px !important;
+@each $key, $value in $screens {
+  @media (min-width: $value) {
+    $i: 0;
+    @while $i < 10.1 {
+      ._f-#{$key}#{str-replace($i + '', '.', '_')}rem {
+        font-size: #{$i}rem !important;
+      }
+
+      ._f-#{$key}#{str-replace($i + '', '.', '_')}pt {
+        font-size: #{$i}pt !important;
+      }
+
+      ._f-#{$key}#{str-replace($i + '', '.', '_')}em {
+        font-size: #{$i}em !important;
+      }
+
+      $i: $i + 0.1;
+    }
   }
 }
 
-//Font size in pt
-@for $i from 0 through 100 {
-  .f-#{$i}pt {
-    font-size: #{$i}pt !important;
-  }
-}
-
-
-//Font in percent
-@for $i from 0 through 100 {
-  .f-#{$i}percent {
-    font-size: #{$i}#{'%'} !important;
-  }
-}
