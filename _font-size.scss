@@ -12,19 +12,6 @@
   }
 }
 
-/*//Font size in em
-@for $i from 0 through 100 {
-  .f-#{$i}pt {
-    font-size: #{$i}pt !important;
-  }
-}
-
-//Font size in rem
-@for $i from 0 through 100 {
-  .f-#{$i}pt {
-    font-size: #{$i}pt !important;
-  }
-}*/
 
 //Font in percent
 @for $i from 0 through 100 {
