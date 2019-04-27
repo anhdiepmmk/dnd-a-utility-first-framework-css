@@ -27720,120 +27720,560 @@
   background-color: #FFFFFF !important;
 }
 
-._text-white {
-  color: #FFFFFF !important;
-}
-
-._text-white-smoke {
-  color: #F5F5F5 !important;
-}
-
-._text-white-smoke-f8f8f8 {
-  color: #F8F8F8 !important;
-}
-
-._text-black {
+._text-Black {
   color: #000000 !important;
 }
 
-._text-black-080808 {
-  color: #080808 !important;
+._text-Navy {
+  color: #000080 !important;
 }
 
-._text-black-101010 {
-  color: #101010 !important;
+._text-DarkBlue {
+  color: #00008B !important;
 }
 
-._text-black-181818 {
-  color: #181818 !important;
+._text-MediumBlue {
+  color: #0000CD !important;
 }
 
-._text-black-202020 {
-  color: #202020 !important;
+._text-Blue {
+  color: #0000FF !important;
 }
 
-._text-black-282828 {
-  color: #282828 !important;
+._text-DarkGreen {
+  color: #006400 !important;
 }
 
-._text-black-303030 {
-  color: #303030 !important;
+._text-Green {
+  color: #008000 !important;
 }
 
-._text-black-383838 {
-  color: #383838 !important;
+._text-Teal {
+  color: #008080 !important;
 }
 
-._text-black-404040 {
-  color: #404040 !important;
+._text-DarkCyan {
+  color: #008B8B !important;
 }
 
-._text-black-484848 {
-  color: #484848 !important;
+._text-DeepSkyBlue {
+  color: #00BFFF !important;
 }
 
-._text-black-505050 {
-  color: #505050 !important;
+._text-DarkTurquoise {
+  color: #00CED1 !important;
 }
 
-._text-black-585858 {
-  color: #585858 !important;
+._text-MediumSpringGreen {
+  color: #00FA9A !important;
 }
 
-._text-black-606060 {
-  color: #606060 !important;
+._text-Lime {
+  color: #00FF00 !important;
 }
 
-._text-black-686868 {
-  color: #686868 !important;
+._text-SpringGreen {
+  color: #00FF7F !important;
 }
 
-._text-black-696969 {
+._text-Aqua {
+  color: #00FFFF !important;
+}
+
+._text-MidnightBlue {
+  color: #191970 !important;
+}
+
+._text-DodgerBlue {
+  color: #1E90FF !important;
+}
+
+._text-LightSeaGreen {
+  color: #20B2AA !important;
+}
+
+._text-ForestGreen {
+  color: #228B22 !important;
+}
+
+._text-SeaGreen {
+  color: #2E8B57 !important;
+}
+
+._text-DarkSlateGray {
+  color: #2F4F4F !important;
+}
+
+._text-LimeGreen {
+  color: #32CD32 !important;
+}
+
+._text-MediumSeaGreen {
+  color: #3CB371 !important;
+}
+
+._text-Turquoise {
+  color: #40E0D0 !important;
+}
+
+._text-RoyalBlue {
+  color: #4169E1 !important;
+}
+
+._text-SteelBlue {
+  color: #4682B4 !important;
+}
+
+._text-DarkSlateBlue {
+  color: #483D8B !important;
+}
+
+._text-MediumTurquoise {
+  color: #48D1CC !important;
+}
+
+._text-Indigo {
+  color: #4B0082 !important;
+}
+
+._text-DarkOliveGreen {
+  color: #556B2F !important;
+}
+
+._text-CadetBlue {
+  color: #5F9EA0 !important;
+}
+
+._text-CornflowerBlue {
+  color: #6495ED !important;
+}
+
+._text-RebeccaPurple {
+  color: #663399 !important;
+}
+
+._text-MediumAquaMarine {
+  color: #66CDAA !important;
+}
+
+._text-DimGray {
   color: #696969 !important;
 }
 
-._text-black-707070 {
-  color: #707070 !important;
+._text-SlateBlue {
+  color: #6A5ACD !important;
 }
 
-._text-black-787878 {
-  color: #787878 !important;
+._text-OliveDrab {
+  color: #6B8E23 !important;
 }
 
-._text-gray {
+._text-SlateGray {
+  color: #708090 !important;
+}
+
+._text-LightSlateGray {
+  color: #778899 !important;
+}
+
+._text-MediumSlateBlue {
+  color: #7B68EE !important;
+}
+
+._text-LawnGreen {
+  color: #7CFC00 !important;
+}
+
+._text-Chartreuse {
+  color: #7FFF00 !important;
+}
+
+._text-Aquamarine {
+  color: #7FFFD4 !important;
+}
+
+._text-Maroon {
+  color: #800000 !important;
+}
+
+._text-Purple {
+  color: #800080 !important;
+}
+
+._text-Olive {
+  color: #808000 !important;
+}
+
+._text-Gray {
   color: #808080 !important;
 }
 
-._text-gray-888888 {
-  color: #888888 !important;
+._text-SkyBlue {
+  color: #87CEEB !important;
 }
 
-._text-gray-909090 {
-  color: #909090 !important;
+._text-LightSkyBlue {
+  color: #87CEFA !important;
 }
 
-._text-gray-989898 {
-  color: #989898 !important;
+._text-BlueViolet {
+  color: #8A2BE2 !important;
 }
 
-._text-gray-A0A0A0 {
-  color: #A0A0A0 !important;
+._text-DarkRed {
+  color: #8B0000 !important;
 }
 
-._text-gray-A8A8A8 {
-  color: #A8A8A8 !important;
+._text-DarkMagenta {
+  color: #8B008B !important;
 }
 
-._text-drak-gray {
+._text-SaddleBrown {
+  color: #8B4513 !important;
+}
+
+._text-DarkSeaGreen {
+  color: #8FBC8F !important;
+}
+
+._text-LightGreen {
+  color: #90EE90 !important;
+}
+
+._text-MediumPurple {
+  color: #9370DB !important;
+}
+
+._text-DarkViolet {
+  color: #9400D3 !important;
+}
+
+._text-PaleGreen {
+  color: #98FB98 !important;
+}
+
+._text-DarkOrchid {
+  color: #9932CC !important;
+}
+
+._text-YellowGreen {
+  color: #9ACD32 !important;
+}
+
+._text-Sienna {
+  color: #A0522D !important;
+}
+
+._text-Brown {
+  color: #A52A2A !important;
+}
+
+._text-DarkGray {
   color: #A9A9A9 !important;
 }
 
-._text-drak-gray-B0B0B0 {
-  color: #B0B0B0 !important;
+._text-LightBlue {
+  color: #ADD8E6 !important;
 }
 
-._text-drak-gray-B8B8B8 {
-  color: #B8B8B8 !important;
+._text-GreenYellow {
+  color: #ADFF2F !important;
+}
+
+._text-PaleTurquoise {
+  color: #AFEEEE !important;
+}
+
+._text-LightSteelBlue {
+  color: #B0C4DE !important;
+}
+
+._text-PowderBlue {
+  color: #B0E0E6 !important;
+}
+
+._text-FireBrick {
+  color: #B22222 !important;
+}
+
+._text-DarkGoldenRod {
+  color: #B8860B !important;
+}
+
+._text-MediumOrchid {
+  color: #BA55D3 !important;
+}
+
+._text-RosyBrown {
+  color: #BC8F8F !important;
+}
+
+._text-DarkKhaki {
+  color: #BDB76B !important;
+}
+
+._text-Silver {
+  color: #C0C0C0 !important;
+}
+
+._text-MediumVioletRed {
+  color: #C71585 !important;
+}
+
+._text-IndianRed {
+  color: #CD5C5C !important;
+}
+
+._text-Peru {
+  color: #CD853F !important;
+}
+
+._text-Chocolate {
+  color: #D2691E !important;
+}
+
+._text-Tan {
+  color: #D2B48C !important;
+}
+
+._text-LightGray {
+  color: #D3D3D3 !important;
+}
+
+._text-Thistle {
+  color: #D8BFD8 !important;
+}
+
+._text-Orchid {
+  color: #DA70D6 !important;
+}
+
+._text-GoldenRod {
+  color: #DAA520 !important;
+}
+
+._text-PaleVioletRed {
+  color: #DB7093 !important;
+}
+
+._text-Crimson {
+  color: #DC143C !important;
+}
+
+._text-Gainsboro {
+  color: #DCDCDC !important;
+}
+
+._text-Plum {
+  color: #DDA0DD !important;
+}
+
+._text-BurlyWood {
+  color: #DEB887 !important;
+}
+
+._text-LightCyan {
+  color: #E0FFFF !important;
+}
+
+._text-Lavender {
+  color: #E6E6FA !important;
+}
+
+._text-DarkSalmon {
+  color: #E9967A !important;
+}
+
+._text-Violet {
+  color: #EE82EE !important;
+}
+
+._text-PaleGoldenRod {
+  color: #EEE8AA !important;
+}
+
+._text-LightCoral {
+  color: #F08080 !important;
+}
+
+._text-Khaki {
+  color: #F0E68C !important;
+}
+
+._text-AliceBlue {
+  color: #F0F8FF !important;
+}
+
+._text-HoneyDew {
+  color: #F0FFF0 !important;
+}
+
+._text-Azure {
+  color: #F0FFFF !important;
+}
+
+._text-SandyBrown {
+  color: #F4A460 !important;
+}
+
+._text-Wheat {
+  color: #F5DEB3 !important;
+}
+
+._text-Beige {
+  color: #F5F5DC !important;
+}
+
+._text-WhiteSmoke {
+  color: #F5F5F5 !important;
+}
+
+._text-MintCream {
+  color: #F5FFFA !important;
+}
+
+._text-GhostWhite {
+  color: #F8F8FF !important;
+}
+
+._text-Salmon {
+  color: #FA8072 !important;
+}
+
+._text-AntiqueWhite {
+  color: #FAEBD7 !important;
+}
+
+._text-Linen {
+  color: #FAF0E6 !important;
+}
+
+._text-LightGoldenRodYellow {
+  color: #FAFAD2 !important;
+}
+
+._text-OldLace {
+  color: #FDF5E6 !important;
+}
+
+._text-Red {
+  color: #FF0000 !important;
+}
+
+._text-Fuchsia {
+  color: #FF00FF !important;
+}
+
+._text-DeepPink {
+  color: #FF1493 !important;
+}
+
+._text-OrangeRed {
+  color: #FF4500 !important;
+}
+
+._text-Tomato {
+  color: #FF6347 !important;
+}
+
+._text-HotPink {
+  color: #FF69B4 !important;
+}
+
+._text-Coral {
+  color: #FF7F50 !important;
+}
+
+._text-DarkOrange {
+  color: #FF8C00 !important;
+}
+
+._text-LightSalmon {
+  color: #FFA07A !important;
+}
+
+._text-Orange {
+  color: #FFA500 !important;
+}
+
+._text-LightPink {
+  color: #FFB6C1 !important;
+}
+
+._text-Pink {
+  color: #FFC0CB !important;
+}
+
+._text-Gold {
+  color: #FFD700 !important;
+}
+
+._text-PeachPuff {
+  color: #FFDAB9 !important;
+}
+
+._text-NavajoWhite {
+  color: #FFDEAD !important;
+}
+
+._text-Moccasin {
+  color: #FFE4B5 !important;
+}
+
+._text-Bisque {
+  color: #FFE4C4 !important;
+}
+
+._text-MistyRose {
+  color: #FFE4E1 !important;
+}
+
+._text-BlanchedAlmond {
+  color: #FFEBCD !important;
+}
+
+._text-PapayaWhip {
+  color: #FFEFD5 !important;
+}
+
+._text-LavenderBlush {
+  color: #FFF0F5 !important;
+}
+
+._text-SeaShell {
+  color: #FFF5EE !important;
+}
+
+._text-Cornsilk {
+  color: #FFF8DC !important;
+}
+
+._text-LemonChiffon {
+  color: #FFFACD !important;
+}
+
+._text-FloralWhite {
+  color: #FFFAF0 !important;
+}
+
+._text-Snow {
+  color: #FFFAFA !important;
+}
+
+._text-Yellow {
+  color: #FFFF00 !important;
+}
+
+._text-LightYellow {
+  color: #FFFFE0 !important;
+}
+
+._text-Ivory {
+  color: #FFFFF0 !important;
+}
+
+._text-White {
+  color: #FFFFFF !important;
 }
 
 ._border-style-dotted {

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f52df438-096d-49cf-aea7-3b87a04758d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_bg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_bg.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_font-size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_font-size.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_variable.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dnd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_color.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/dnd.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/dnd.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/dnd.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/dnd.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/dnd.min.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_bg.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="208">
+              <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/dnd.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="26671" column="35" selection-start-line="26671" selection-start-column="35" selection-end-line="26671" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -40,6 +49,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="546">
               <caret line="155" column="1617" lean-forward="true" selection-start-line="155" selection-start-column="1617" selection-end-line="155" selection-end-column="1617" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_color.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -74,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_color.scss" />
         <option value="$PROJECT_DIR$/function.scss" />
         <option value="$PROJECT_DIR$/_border.scss" />
         <option value="$PROJECT_DIR$/dnd.scss" />
@@ -82,6 +108,8 @@
         <option value="$PROJECT_DIR$/_variable.scss" />
         <option value="$PROJECT_DIR$/_font-size.scss" />
         <option value="$PROJECT_DIR$/_bg.scss" />
+        <option value="$PROJECT_DIR$/_color.scss" />
+        <option value="$PROJECT_DIR$/build.sh" />
       </list>
     </option>
   </component>
@@ -110,6 +138,12 @@
               <item name="dndimension" type="b2602c69:ProjectViewProjectNode" />
               <item name="dndimension" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dndimension" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dndimension" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="dnd.css" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -151,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556294583208</updated>
       <workItem from="1556294584984" duration="10261000" />
-      <workItem from="1556375555143" duration="1220000" />
+      <workItem from="1556375555143" duration="1387000" />
     </task>
     <task id="LOCAL-00001" summary="add _function.scss&#10;Support This 216 hex values cross-browser color palette&#10;&#10;update ._bg-wsc-xxx">
       <created>1556297958037</created>
@@ -174,11 +208,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556375869221</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="render class _bg-{color name}">
+      <created>1556376835495</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556376835495</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11481000" />
+    <option name="totallyTimeSpent" value="11648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -212,7 +253,8 @@
     <MESSAGE value="add _function.scss&#10;Support This 216 hex values cross-browser color palette&#10;&#10;update ._bg-wsc-xxx" />
     <MESSAGE value="add _z-index.scss&#10;add reset.scss" />
     <MESSAGE value="add color array  to variable.scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="add color array  to variable.scss" />
+    <MESSAGE value="render class _bg-{color name}" />
+    <option name="LAST_COMMIT_MESSAGE" value="render class _bg-{color name}" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/sass/lib/sass.jar!/org/jetbrains/plugins/sass/stdlib/sass_functions.scss">
@@ -246,13 +288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_color.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dnd.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -264,13 +299,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/dnd.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="26678" selection-start-line="26678" selection-end-line="26678" />
         </state>
       </provider>
     </entry>
@@ -288,10 +316,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/dnd.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="26671" column="35" selection-start-line="26671" selection-start-column="35" selection-end-line="26671" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_bg.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="208">
+          <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_color.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
         </state>
       </provider>
     </entry>
